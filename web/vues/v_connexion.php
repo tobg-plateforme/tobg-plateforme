@@ -1,23 +1,68 @@
-<?php
-?>
-<div class="login">
-  <div class="login-header">
-    <h1>Login</h1>
-  </div>
-  <div class="login-form">
-    <h3>Username:</h3>
-    <input type="text" placeholder="Username"/><br>
-    <h3>Password:</h3>
-    <input type="password" placeholder="Password"/>
-    <br>
-    <input type="button" value="Login" class="login-button"/>
-    <br>
-    <a class="sign-up">Sign Up!</a>
-    <br>
-    <h6 class="no-access">Can't access your account?</h6>
-  </div>
-</div>
-<div class="error-page">
-  <div class="try-again">Error: Try again?</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Custom Login Form Styling</title>
+        <meta name="description" content="Custom Login Form Styling with CSS3" />
+        <meta name="keywords" content="css3, login, form, custom, input, submit, button, html5, placeholder" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/modernizr.custom.63321.js"></script>
+		<!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+		<style>
+			@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
+			body {
+				background: #563c55 url(images/blurred.jpg) no-repeat center top;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+			}
+			.container > header h1,
+			.container > header h2 {
+				color: #fff;
+				text-shadow: 0 1px 1px rgba(0,0,0,0.7);
+			}
+		</style>
+    </head>
+    <body>
+        <div class="container">
+		
+			
+			
+			<header>
+			
+				<h1>Custom <strong>Login Form</strong> Styling</h1>
+				<h2>Creative and modern form design with CSS magic</h2>
 
+				<div class="support-note">
+					<span class="note-ie">Sorry, only modern browsers.</span>
+				</div>
+				
+			</header>
+			
+			<section>
+				<form>
+				    <p class="clearfix">
+				        <label for="login">Username</label>
+				        <input type="text" name="login" id="login" placeholder="Username">
+				    </p>
+				    <p class="clearfix">
+				        <label for="password">Password</label>
+				        <input type="password" name="password" id="password" placeholder="Password"> 
+				    </p>
+				    <p class="clearfix">
+				        <input type="checkbox" name="remember" id="remember">
+				        <label for="remember">Remember me</label>
+				    </p>
+				    <p class="clearfix">
+				        <input type="submit" name="submit" value="Sign in">
+				    </p>       
+				</form>â€‹
+			</section>
+			
+        </div>
+    </body>
+</html>

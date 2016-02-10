@@ -9,12 +9,15 @@ if (filter_input(INPUT_GET,'module')) {
     //En utilisant le module en paramètre on pourra accéder à la vue souhaitée
     switch ($module) {
         case 'connexion':
-            include 'web/vues/v_connexion.php';
+            
+            
 
 
             break;
 
         default:
+            include 'web/vues/v_connexion.php';
+            
             break;
     }
     
