@@ -1,5 +1,12 @@
 <?php
-
+/* 
+ * Tales of Battleground
+ * Document : $nomdufichier
+ * Version : 0.1
+ * Auteur : Jordan 
+ * Date :
+ * Controleur centrale redirection
+ */
 //
 if (filter_input(INPUT_GET,'module')) {
     
@@ -23,9 +30,5 @@ if (filter_input(INPUT_GET,'module')) {
     
     
 }
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 

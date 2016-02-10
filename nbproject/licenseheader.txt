@@ -1,0 +1,11 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Tales of Battleground
+${licensePrefix}Document : $nomdufichier
+${licensePrefix}Version : 0.1
+${licensePrefix}Auteur : Jordan 
+${licensePrefix}Date :
+<#if licenseLast??>
+${licenseLast}
+</#if>

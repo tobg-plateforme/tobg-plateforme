@@ -7,7 +7,4 @@
  * Auteur : Jordan 
  * Date :
  */
-class User {
-    //put your code here
-    
-}
+
