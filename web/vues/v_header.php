@@ -11,6 +11,7 @@ Date : 11/02/2016
         <title>Tales of Battleground</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' src='../styles/stylesTOBG.css'>
     </head>
     <body>
         <!-- Structure globale avant découpage en plusieurs fichiers -->
@@ -54,6 +55,11 @@ Date : 11/02/2016
         
         <div id='tobg_container'>
             
-            
+<?php 
+    
+    include 'v_fil_actus.php';
+    include 'v_footer.php';
+
+?>
             
 
