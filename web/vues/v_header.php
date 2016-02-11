@@ -4,7 +4,7 @@ Tales of Battleground
 Document : $nomdufichier
 Version : 0.1
 Auteur : Alexandra 
-Date :
+Date : 11/02/2016
 -->
 <html>
     <head>
@@ -15,7 +15,8 @@ Date :
     <body>
         <!-- Structure globale avant découpage en plusieurs fichiers -->
         
-        <!-- Page d'Accueil -->
+        
+        <!-- Header + menu -->
         
         <!-- Barre suppérieure avec bouton menu, Titre de la page affichée, 
                     avatar de l'utilisateur connecté (s'il l'est) -->
@@ -24,8 +25,7 @@ Date :
             <img alt='' src=''>
             
             <!-- Titre de la page (peu importe l'élément affiché, article, fichier, evenement, fil d'actu...) -->
-            <!-- UNIQUE h1 du site, sera modifié en AJAX lors d'un changement de page -->
-            <h1> <!-- $titrePage --></h1>
+            <h2 id='tobg_titre_page'><!-- $titrePage --></h2>
             
             <!-- Avatar de l'utilisateur CONNECTE -->
             <img alt='' src=''>
@@ -35,7 +35,25 @@ Date :
         
         <!-- Navigation principale, menu latéral affiché par défaut, possible de le cacher grâce au bouton
                     à gauche du header -->
-        <nav id='tobg_left_menu'></nav>
+        <nav id='tobg_left_menu'>
+            <!-- Le menu étant affiché par défaut, on met le logo du site dedans
+                Dans un h1 pour le référencement du site -->
+            <h1 id='tobg_logo_container'>
+                <img id='tobg_logo_img' src='' alt=''>
+            </h1>
+            
+            <ul id='tobg_left_menu_ul'>
+                <li class='tobg_left_menu_li'>
+                    <!-- $titreMenu -->
+                </li>
+            </ul>
+        </nav>
         
-    </body>
-</html>
+        
+        <!-- Contenu de la page -->
+        
+        <div id='tobg_container'>
+            
+            
+            
+

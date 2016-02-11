@@ -60,7 +60,7 @@
 				    <p class="clearfix">
 				        <input type="submit" name="submit" value="Sign in">
 				    </p>       
-				</form>â€‹
+				</form>
 			</section>
 			
         </div>
