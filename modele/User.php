@@ -1,5 +1,5 @@
 <?php
-
+include 'Connexion.php';
 /* 
  * Tales of Battleground
  * Document : $nomdufichier
@@ -8,6 +8,17 @@
  * Date :
  */
 class User {
-    //put your code here
+    private $id;
+    private $nom;
+    private $prenom;
+    private $login;
+    private $groupe;
+    private $isBlacklist;
+    private $mdp;
+    private $listPublication = array();
+    private $listMessagePrive = array();
+    private $listCommentaire = array();
+    
+    
     
 }
